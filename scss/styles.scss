@@ -674,13 +674,29 @@ $light-blue: #6998FF;
                 margin-bottom: 0;
               }
               &::placeholder {
-                color: $color_1;
+                color: $text-color;
                 font-size: 16px;
                 line-height: 30px;
               }
               &:focus {
                 outline: none;
               }
+            }
+          }
+          textarea{
+            width:100%;
+            color: $text-color;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            padding:15px 15px 14px 15px;
+            border: 1px solid $secondary--color;
+            &::placeholder {
+              color: $text-color;
+              font-size: 16px;
+              line-height: 30px;
+            }
+            &:focus {
+              outline: none;
             }
           }
         }
